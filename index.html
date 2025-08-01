@@ -1,0 +1,418 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Aquaberry Studio">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  
+
+    <title>Aquaberry Studio | It's More Than Barbershop, It Was An Agency</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style></style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container mb-5">
+            <a class="navbar-brand" href="/">
+                <img src="/img/logo2.png" alt="Aquaberry Studio Logo" width="100%"
+                    class="img-fluid">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                    <!-- <a class="nav-link" target="_blank" href="https://academy.hairnerds.id/">Academy</a> -->
+                    <!-- <a class="nav-link" href="https://hairnerds.id/customer/booking">Pesan layanan</a> -->
+                    <a class="nav-link" href="#ourservices">layanan kami</a>
+                    <!-- <a class="nav-link" href="#ourteam">Hair Artist</a> -->
+                    <!-- <a class="nav-link" href="https://hairnerds.id/shop">toko</a> -->
+                    <a class="nav-link" href="#aboutus">tentang kami</a>
+                    <a class="nav-link" href="#contact-us">Hubungi Kami</a>
+                </ul>
+                 <div class="navbar-nav ms-auto nav-auth">
+                    <a href="/sign.html" class="btn btn-auth me-3">Daftar Member</a>
+                    <!-- <a href="#" class="btn btn-auth me-3">Pesan Layanan</a> -->
+                    <!-- <a href="https://hairnerds.id/auth" class="btn btn-auth">Sign In</a> -->
+                                    </div> 
+            </div>
+        </div>
+    </nav>
+
+    <button id="toTopBtn" title="Kembali ke atas" style="display:none;position:fixed;bottom:30px;right:30px;z-index:9999;background:#222;color:#fff;border:none;border-radius:50%;width:48px;height:48px;box-shadow:0 2px 8px rgba(0,0,0,0.2);font-size:22px;cursor:pointer;">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <script>
+        // Show/hide button
+        window.onscroll = function() {
+            document.getElementById("toTopBtn").style.display = (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) ? "block" : "none";
+        };
+        // Scroll to top
+        document.getElementById("toTopBtn").onclick = function() {
+            window.scrollTo({top: 0, behavior: 'smooth'});
+        };
+    </script>
+    
+            <main>
+            <section id="hero" class="bg-hero vh-100" style="background-image: url(/img/bg.png)">
+            <div class="position-relative z-index-3 h-100" style="max-width:95%; margin-top:-5em;">
+                <div class="align-items-center h-100">
+                    <div class="d-flex align-items-center justify-items-center w-100 h-100">
+                        <div id="carouselHero" class="carousel slide d-flex justify-content-center align-items-center w-100" style="min-height:350px;" data-bs-ride="carousel" data-bs-interval="3000">
+                            
+                            <div class="d-flex align-items-center justify-content-center w-100" style="gap: 32px;">
+                                <div class="carousel-inner" style="max-width: 600px; margin: 0 auto;">
+                                    <div class="carousel-item active">
+                                        <img class="d-block img-carousel mx-auto" src="/img/ex.png" onerror="imgError(this);" alt="Barber" style="width: 100%; max-width: 600px; height: auto;">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block img-carousel mx-auto" src="/img/ex.png" onerror="imgError(this);" alt="Barber" style="width: 100%; max-width: 600px; height: auto;">
+                                    </div>
+                                </div>
+                            </div>  
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="position-absolute bottom-0 left-50pct transform3dx-n50">
+                    <a href="#ourservices" data-hash data-hash-offset="68"
+                        class="d-block text-decoration-none text-color-light appear-animation"
+                        data-appear-animation="fadeIn" data-appear-animation-delay="3000"
+                        data-plugin-options="{'minWindowWidth': 0, 'forceAnimation': true, 'accY': 200}">
+                        <i class="icons icon-arrow-down p-events-none"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <img src="/img/divider-5.png" alt="" class="bg-divider-hero">
+        
+        <div id="ourservices">
+            <div class="container">
+                <div class="row mt-5 mb-5">
+                    <div class="col text-center text-md-left">
+                        <div class="overflow-hidden">
+                            <hr>
+                            <h2 class="fw-bolder fs-1 mb-3 text-center">We're not only cut your hair</h2>
+                            <h3 class="fw-bold">We'll show you the future here.</h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5 mb-5">
+                    <div class="col text-center text-md-left">
+                        <div class="overflow-hidden">
+                            <h2 class="fw-bold fs-1 mb-3 text-center">SERVICES</h2>
+                            <p class="fs-4">Silahkan pilih layanan yang diinginkan</p>
+                        </div>
+                        <div class="overflow-hidden mb-3">
+                            <p class="font-weight-semibold text-1 mb-0 appear-animation text-center" style="display:none"
+                                data-appear-animation="maskUp">BEING CONFIDENT IS THE KEY TO
+                                LIFE. DON'T BE AFRAID TO BE YOU! I'M SUPER DIFFERENT FROM A KIDS MY AGE WITH STYLE
+                                AND PERSONALITY, AND I'M OK WITH IT. AND IF YOU ARE OK WITH IT, EVERYONE ELSE WILL
+                                BE TOO.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center mb-4 g-4">
+                    <div class="col-6 col-sm-6 col-md-3 text-center mb-md-5 appear-animation" data-appear-animation="maskUp">
+                        <img data-src="/img/1.png"
+                            class="lazy mb-3 img-service img-fluid" alt="Haircut" loading="lazy" />
+                        <p class="px-4 text-2 d-none d-md-block">Haircut</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center mb-md-5 appear-animation" data-appear-animation="maskUp">
+                        <img data-src="/img/2.png"
+                            class="lazy mb-3 img-service img-fluid" alt="Perm" loading="lazy" />
+                        <p class="px-4 text-2 d-none d-md-block">Perm</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center mb-md-5 appear-animation" data-appear-animation="maskUp">
+                        <img data-src="/img/3.png"
+                            class="lazy mb-3 img-service img-fluid" alt="Smoothing" loading="lazy" />
+                        <p class="px-4 text-2 d-none d-md-block">Smoothing</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-3 text-center mb-md-5 appear-animation" data-appear-animation="maskUp">
+                        <img data-src="/img/4.png"
+                            class="lazy mb-3 img-service img-fluid" alt="Coloring" loading="lazy" />
+                        <p class="px-4 text-2 d-none d-md-block">Coloring</p>
+                    </div>
+                </div>
+                <style>
+                    @media (max-width: 767.98px) {
+                        .img-service {
+                            max-width: 100%;
+                            height: auto;
+                        }
+                        .text-2 {
+                            display: block !important;
+                            font-size: 1rem;
+                        }
+                        .appear-animation {
+                            margin-bottom: 1.5rem !important;
+                        }
+                    }
+                </style>
+        </div> 
+        <img src="/img/divider-5.png" class="bg-divider-services" alt="">
+        <div class="bg-about d-flex" id="aboutus"
+            style="background-image: url(/img/BG4.png);background-position: right bottom; ">
+            <div class="container d-flex">
+                <div class="row">
+                    <div class="col-lg-6 d-flex flex-column justify-content-center" id="about-wrapper">
+                        <h1 class="fw-bold fs-1">About Us</h1>
+                        <div style="line-height: 24px;">
+                            <p class="text-wrapping fw-semibold about-content">
+                                Aquaberry Studio merupakan tempat cukur rambut
+                                yang mempunyai konsep futuristik antara
+                                barbershop dan IoT. Ini lah kami yang peduli dengan kualitas hasil potongan rambut
+                                serta masa depan untuk
+                                para customer kami. <br> Rambut adalah kanvas kami untuk membuat sebuah karya.</p>
+                        </div>
+                        <button class="btn btn-readmore" style="width: fit-content; display:none;">Read More</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+       <br><br>
+        <div id="contact-us" class="mb-8">
+            
+            <div class="container">
+                
+                <div class="row justify-content-center mb-4 contact-info">
+                    <div class="contact-detail">
+                        <div class="store-name">
+                            <b>Aquaberry Studio</b>
+                        </div>
+                        <div class="store-type">
+                            <b>Hair Salon Agency</b>
+                        </div>
+                        <div>
+                            <div class="born">
+                                <span class="born__location">Jawa Selatan</span>
+                                <span class="born__divider mx-3 opacity-3">|</span>
+                                <span class="born__year">EST 2024</span>
+                            </div>
+                        </div>
+                        <div class="contact-divider">
+                            <hr style="margin: 0 auto; height: 1px; background-color:#958e85;">
+                        </div>
+                        <div class="address">
+                            <div class="address__full">
+                                Jalan Puncak, Jomblang, Asmorobangun, <br>
+                                Kec. Puncu, Kabupaten Kediri, <br>
+                                Jawa Timur 64292- Indonesia
+                            </div>
+                            <div class="address__email">hello@gmail.id</div>
+                        </div>
+                        <div class="contact-divider">
+                            <hr style="margin: 0 auto; height: 1px; background-color:#958e85;">
+                        </div>
+                        <div class="reservation">
+                            <span>Tertarik ? <a href="#footer">klik disini</a></span>
+                            <span class="phone">+62 877-5391-9240</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="/img/divider-5.png" alt="" class="bg-divider-brands">
+        </div>
+ 
+        </div>
+        <div class="modal fade" id="adsModal" tabindex="-1" aria-labelledby="exampleModalLabel">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"
+                            style="width: 100%">
+                            <div class="carousel-inner">
+                                                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="shadow-lg bg-black rounded carousel-control-prev-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="shadow-lg bg-black rounded carousel-control-next-icon"
+                                    aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+  
+
+    <footer class="bg-footer" id="footer">
+        <div class="mx-3">
+            <div class="row footer-padding">
+                <div class="row py-5 justify-content-center">
+                    <div class="col-md-6 col-lg-8 footer-location">
+                        <h3 class="fw-bold fs-1 mb-3 text-light text-center">ADDRESS</h3>
+                        <div class="row">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d396.28660333985283!2d112.2602772933012!3d-7.821186927404649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7861005729faf3%3A0x25fdb4bbdc8c1e34!2sAquaberry%20Studio!5e0!3m2!1sid!2sid!4v1753857376777!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 col-lg-4 footer-hours">
+                        <h3 class="fw-bold fs-1 mb-3 text-light text-center">OPENING HOURS</h3>
+                        <div class="row">
+                            <br><br><br>
+                                <div class="mt-5 mb-5 w-100">
+                                    <table class="table text-light table-borderless fw-semibold fs-5"
+                                        style="color:white">
+                                        <thead>
+                                            <tr style="display:none">
+                                                <th scope="col">days</th>
+                                                <th scope="col" style="width:10px">open</th>
+                                                <th scope="col" style="width:10px">-</th>
+                                                <th scope="col" style="width:10px">close</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row" style="width:170px; padding: 0 0 13px 0">Monday
+                                                </th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Tuesday</th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Wednesday</th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Thursday</th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Friday</th>
+                                                <td style="padding: 0 0 13px 0">1pm</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Saturday</th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row" style="padding: 0 0 13px 0">Sunday</th>
+                                                <td style="padding: 0 0 13px 0">10am</td>
+                                                <td style="padding: 0 13px"> - </td>
+                                                <td style="padding: 0 0 13px 0">9pm</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div><br><br><br>
+                                 <a href="https://wa.me/6287753919240" class="btn btn-auth me-3">Booking Sekarang</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-dark" style="padding:20px !important">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 text-center">
+                        <h2 class="footer-header-text">Our Socials</h2>
+                        <ul style="list-style: none"
+                            class="social-icons social-icons-clean social-icons-icon-light mb-2 d-flex justify-content-center">
+                            <li class="social-icons-instagram fs-2"><a
+                                    href="https://www.instagram.com/" target="_blank"
+                                    title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li class="social-icons-youtube mx-3 fs-2"><a
+                                    href="https://www.youtube.com/" target="_blank"
+                                    title="Youtube"><i class="fab fa-youtube"></i></a></li>
+                            <li class="social-icons-tiktok fs-2">
+                                <a href="https://www.tiktok.com/@h" target="_blank"
+                                    title="Tiktok">
+                                    <svg width="28" height="32" viewBox="0 0 28 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_301_2)">
+                                            <path
+                                                d="M27.9997 13.1194C25.2481 13.126 22.564 12.2678 20.3266 10.6663V21.8363C20.3258 23.9051 19.6935 25.9243 18.5141 27.6241C17.3348 29.3238 15.6646 30.6229 13.7269 31.3478C11.7893 32.0727 9.67651 32.1888 7.67111 31.6805C5.66572 31.1722 3.8633 30.0638 2.50486 28.5035C1.14642 26.9431 0.296715 25.0053 0.0693576 22.949C-0.157999 20.8927 0.247831 18.8161 1.23258 16.9967C2.21733 15.1773 3.73407 13.7019 5.57998 12.7677C7.42589 11.8336 9.51299 11.4853 11.5622 11.7694V17.3875C10.6245 17.0925 9.61753 17.1014 8.68516 17.4129C7.75279 17.7243 6.94267 18.3225 6.3705 19.1218C5.79833 19.9211 5.49336 20.8808 5.49915 21.8638C5.50494 22.8468 5.82119 23.8029 6.40274 24.5954C6.98429 25.3879 7.80139 25.9765 8.73737 26.2769C9.67334 26.5774 10.6803 26.5744 11.6145 26.2684C12.5487 25.9624 13.3623 25.3691 13.9391 24.5731C14.516 23.7772 14.8266 22.8193 14.8266 21.8363V0H20.3266C20.3228 0.464463 20.3617 0.928292 20.4428 1.38563C20.6339 2.40655 21.0313 3.37775 21.6107 4.23983C22.19 5.10191 22.9391 5.83674 23.8122 6.39937C25.0543 7.22068 26.5106 7.65844 27.9997 7.65812V13.1194Z"
+                                                fill="#F8F8F8" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_301_2">
+                                                <rect width="28" height="32" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p class="text-light fw-normal opacity-4 mb-0">Copyrights Aquaberry©2025
+                            <br>
+                            Developed by PT. Alfatech Digital Solution</p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!--Start of Tawk.to Script-->
+    
+    <script src="https://hairnerds.id/porto/vendor/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://hairnerds.id/porto/vendor/jquery/jquery.min.js"></script>
+    <script src="https://hairnerds.id/porto/vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="https://hairnerds.id/porto/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <!--(remove-empty-lines-end)-->
+
+    <!-- Theme Base, Components and Settings -->
+    <script src="https://hairnerds.id/porto/js/theme.js"></script>
+
+    <!-- Current Page Vendor and Views -->
+
+    <!-- Theme Initialization Files -->
+    <script src="https://hairnerds.id/porto/js/theme.init.js"></script>
+        <script async src="https://www.google.com/recaptcha/api.js">
+    // <script>
+    //     $(document).ready(function() {
+    //                 })
+
+    // </script>
+    <script src="https://hairnerds.id/js/customer/landing.js?time=_1753748724"></script>
+    <script src="https://cdn2.woxo.tech/a.js#667e3ebf4d55ccc90f7fd535" async data-usrc></script>
+</body>
+    
+</html>

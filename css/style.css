@@ -1,0 +1,1381 @@
+
+        .navbar {
+            padding: .50rem 60;
+            transition: all 0.3s ease-in-out;
+            background: transparent;
+            background-size: auto;
+            background-image: url("/img/dv.png");
+            ;
+            background-position: right bottom;
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 10;
+        }
+
+        .navbar-brand {
+            width: 10em;
+        }
+
+        .nav-link {
+            font-size: 1.12em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .btn-auth {
+            border-radius: 1.7em;
+            padding: 8px 24px;
+            text-transform: uppercase;
+            background-color: rgba(238, 238, 238, .9);
+            font-weight: 600;
+        }
+
+        .btn-auth:hover {
+            background-color: rgba(238, 238, 238, .9);
+        }
+
+        .bg-footer {
+            background-color: #353a3e;
+            width: 100%;
+            height: 100%;
+            margin-top: -4em !important;
+        }
+
+        .footer-padding {
+            padding: 6em;
+        }
+
+        .form-control:focus.subscribe-form {
+            box-shadow: none;
+        }
+
+        .social-icons {
+            margin: 0;
+            padding: 0;
+            width: auto;
+        }
+
+        .social-icons li {
+            display: inline-block;
+            margin: -1px 1px 0 0;
+            padding: 0;
+            border-radius: 100%;
+            overflow: visible;
+        }
+
+        .social-icons li a {
+            transition: all 0.2s ease;
+            border-radius: 100%;
+            display: block;
+            height: 3.2rem;
+            line-height: 5;
+            width: 3.2rem;
+            text-align: center;
+            color: #333 !important;
+            text-decoration: none;
+            font-size: 12.8px;
+            font-size: 0.8rem;
+        }
+
+        .social-icons li:hover a {
+            background: #151719;
+            color: #FFF !important;
+        }
+
+        .social-icons li:hover.social-icons-instagram a {
+            background: #7c4a3a !important;
+        }
+
+        .social-icons li:hover.social-icons-youtube a {
+            background: #c3191e !important;
+        }
+
+        .social-icons li.social-icons-tiktok a {
+            line-height: 3.5;
+        }
+
+        .social-icons li:hover.social-icons-tiktok a {
+            background: #FE2C55 !important;
+        }
+
+        .social-icons.social-icons-icon-light li a i {
+            color: #FFF;
+            font-size: 2rem;
+        }
+
+        .footer-header-text {
+            color: #FFF;
+            margin: 1rem 0;
+            letter-spacing: 0.1em;
+        }
+
+        .footer-hours-title {
+            text-decoration: underline;
+        }
+
+        @media  only screen and (max-width: 1024px) {
+
+            .nav-auth {
+                margin-top: 2em !important;
+                margin-bottom: 4em !important;
+            }
+
+            .navbar-nav {
+                float: none;
+                margin: 0 auto;
+                display: block;
+                text-align: center;
+            }
+
+            .footer-location {
+                text-align: center !important;
+            }
+
+            .navbar-nav>li {
+                display: inline-block;
+                float: none;
+            }
+
+            .footer-maps {
+                margin-bottom: 2em;
+            }
+
+            .footer-hours {
+                margin-top: 3em;
+                text-align: center !important;
+            }
+        }
+
+        @media  only screen and (max-width: 768px) {
+
+            .footer-location {
+                text-align: center !important;
+            }
+
+            .footer-maps {
+                margin-bottom: 2em;
+            }
+
+            .footer-hours {
+                margin-top: 3em;
+                text-align: center !important;
+            }
+        }
+
+        @media  only screen and (max-width: 600px) {
+
+            .footer-location {
+                text-align: center !important;
+            }
+
+            .footer-maps {
+                margin-bottom: 2em;
+            }
+
+            .footer-hours {
+                margin-top: 3em;
+                text-align: center !important;
+            }
+        }
+    
+send/* Add here all your CSS customizations */
+.img-wrapper {
+    width: 20rem;
+    height: 10rem;
+}
+.btn-resend {
+    background: #17a2b8 !important;
+    color: white !important;
+}
+.spinner {
+    position: relative;
+}
+.spinner:before {
+    content: "";
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    border: 2px solid #d1d3e0;
+    border-right: 2px solid transparent;
+}
+.spinner:before {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: -0.75rem;
+}
+.spinner.spinner-center:before {
+    left: 50%;
+    margin-left: -0.75rem;
+}
+.spinner.spinner-left:before {
+    right: auto;
+}
+.spinner.spinner-right:before {
+    left: auto;
+}
+.spinner.spinner-sm:before {
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-top: -0.625rem;
+}
+.spinner.spinner-sm.spinner-center:before {
+    left: 50%;
+    margin-left: -0.625rem;
+}
+.spinner.spinner-sm.spinner-left:before {
+    right: auto;
+}
+.spinner.spinner-sm.spinner-right:before {
+    left: auto;
+}
+.spinner.spinner-lg:before {
+    width: 2rem;
+    height: 2rem;
+    margin-top: -1rem;
+}
+.spinner.spinner-lg.spinner-center:before {
+    left: 50%;
+    margin-left: -1rem;
+}
+.spinner.spinner-lg.spinner-left:before {
+    right: auto;
+}
+.spinner.spinner-lg.spinner-right:before {
+    left: auto;
+}
+.spinner:before {
+    -webkit-animation: animation-spinner 0.5s linear infinite;
+    animation: animation-spinner 0.5s linear infinite;
+}
+.spinner.spinner-primary:before {
+    border: 2px solid #3699ff;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-primary:before {
+    border: 2px solid #1287ff;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-secondary:before {
+    border: 2px solid #e4e6ef;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-secondary:before {
+    border: 2px solid #ced1e2;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-success:before {
+    border: 2px solid #1bc5bd;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-success:before {
+    border: 2px solid #17a69f;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-info:before {
+    border: 2px solid #8950fc;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-info:before {
+    border: 2px solid #712dfb;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-warning:before {
+    border: 2px solid #ffa800;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-warning:before {
+    border: 2px solid #db9000;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-danger:before {
+    border: 2px solid #f64e60;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-danger:before {
+    border: 2px solid #f42c41;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-light:before {
+    border: 2px solid #f3f6f9;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-light:before {
+    border: 2px solid #dbe4ed;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-dark:before {
+    border: 2px solid #181c32;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-dark:before {
+    border: 2px solid #0c0e1a;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-white:before {
+    border: 2px solid #ffffff;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-darker-white:before {
+    border: 2px solid #ededed;
+    border-right: 2px solid transparent;
+}
+.spinner.spinner-right:before {
+    left: auto;
+    right: 1rem;
+}
+.spinner.spinner-right.btn:not(.btn-block) {
+    padding-right: 3.5rem;
+}
+.spinner.spinner-right.btn:not(.btn-block).spinner-sm {
+    padding-right: 3.25rem;
+}
+.spinner.spinner-right.btn:not(.btn-block).spinner-lg {
+    padding-right: 4rem;
+}
+.spinner.spinner-left:before {
+    right: auto;
+    left: 1rem;
+}
+.spinner.spinner-left.btn:not(.btn-block) {
+    padding-left: 3.5rem;
+}
+.spinner.spinner-left.btn:not(.btn-block).spinner-sm {
+    padding-left: 3.25rem;
+}
+.spinner.spinner-left.btn:not(.btn-block).spinner-lg {
+    padding-left: 4rem;
+}
+.spinner.spinner-track:before {
+    -webkit-animation: animation-spinner 0.5s linear infinite;
+    animation: animation-spinner 0.5s linear infinite;
+}
+.spinner.spinner-track.spinner-primary:before {
+    border: 2px solid #cfe7ff;
+    border-top-color: #2791ff;
+}
+.spinner.spinner-track.spinner-darker-primary:before {
+    border: 2px solid #9ccdff;
+    border-top-color: #037fff;
+}
+.spinner.spinner-track.spinner-secondary:before {
+    border: 2px solid white;
+    border-top-color: #dadde9;
+}
+.spinner.spinner-track.spinner-darker-secondary:before {
+    border: 2px solid white;
+    border-top-color: #c4c8dc;
+}
+.spinner.spinner-track.spinner-success:before {
+    border: 2px solid #8aefea;
+    border-top-color: #19b8b0;
+}
+.spinner.spinner-track.spinner-darker-success:before {
+    border: 2px solid #5de9e2;
+    border-top-color: #159892;
+}
+.spinner.spinner-track.spinner-info:before {
+    border: 2px solid #eee6ff;
+    border-top-color: #7f41fc;
+}
+.spinner.spinner-track.spinner-darker-info:before {
+    border: 2px solid #cdb4fe;
+    border-top-color: #671efb;
+}
+.spinner.spinner-track.spinner-warning:before {
+    border: 2px solid #ffdc99;
+    border-top-color: #f09e00;
+}
+.spinner.spinner-track.spinner-darker-warning:before {
+    border: 2px solid #ffcb66;
+    border-top-color: #cc8600;
+}
+.spinner.spinner-track.spinner-danger:before {
+    border: 2px solid #fde0e3;
+    border-top-color: #f53f53;
+}
+.spinner.spinner-track.spinner-darker-danger:before {
+    border: 2px solid #fbafb7;
+    border-top-color: #f41d34;
+}
+.spinner.spinner-track.spinner-light:before {
+    border: 2px solid white;
+    border-top-color: #e9eef4;
+}
+.spinner.spinner-track.spinner-darker-light:before {
+    border: 2px solid white;
+    border-top-color: #d1dde8;
+}
+.spinner.spinner-track.spinner-dark:before {
+    border: 2px solid #4a5699;
+    border-top-color: #131628;
+}
+.spinner.spinner-track.spinner-darker-dark:before {
+    border: 2px solid #394377;
+    border-top-color: #070910;
+}
+.spinner.spinner-track.spinner-white:before {
+    border: 2px solid white;
+    border-top-color: #f7f7f7;
+}
+.spinner.spinner-track.spinner-darker-white:before {
+    border: 2px solid white;
+    border-top-color: #e6e6e6;
+}
+
+@-webkit-keyframes animation-spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animation-spinner {
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.dog-gif {
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.dog-gif .image-wrapper {
+    width: 12rem;
+    height: 12rem;
+}
+
+@media screen and (max-width: 949px) {
+    .dog-gif {
+        display: none !important;
+    }
+}
+@media screen and (max-width: 1040px) {
+    .dog-gif .image-wrapper {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+}
+
+/* Rating Styles */
+
+.content {
+    text-align: center;
+}
+.fa.fa-star.checked {
+    color: orange;
+}
+
+.content h1 {
+    font-family: "Lobster", cursive;
+    letter-spacing: 1px;
+    font-size: 50px;
+    color: #282828;
+    margin-bottom: 10px;
+}
+
+.content i {
+    color: #ffc107;
+}
+
+.content span {
+    position: relative;
+    display: inline-block;
+}
+
+.content span:before,
+.content span:after {
+    position: absolute;
+    content: "";
+    background-color: #282828;
+    width: 40px;
+    height: 2px;
+    top: 40%;
+}
+
+.content span:before {
+    left: -45px;
+}
+
+.content span:after {
+    right: -45px;
+}
+
+.content p {
+    font-family: "Lobster", cursive;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.rating {
+    position: relative;
+    display: inline-block;
+    border: none;
+    font-size: 14px;
+    margin: 20px auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rating input {
+    border: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    top: 1.5rem;
+    left: 2rem;
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.rating label {
+    position: relative;
+    float: right;
+    color: #c8c8c8;
+}
+
+.rating label {
+    margin: 5px;
+    display: inline-block;
+    font-size: 2em;
+    fill: #ccc;
+    user-select: none;
+}
+
+.rating label svg {
+    width: 2.5rem;
+    height: auto;
+}
+
+.rating input:checked ~ label svg path {
+    fill: #ffc107;
+}
+
+.rating label:hover ~ label svg path {
+    fill: #ffdb70;
+}
+
+.rating label:hover svg path {
+    fill: #ffc107;
+}
+
+/* Begin:: rating barber profile */
+
+.global-container {
+    display: flex;
+    border-radius: 15px;
+    gap: 40px;
+    height: 200px;
+}
+
+.chart {
+    /* width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
+
+.chart .rate-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 30px;
+    padding: 20px 0;
+    padding: 10px;
+}
+.chart .rate-box > * {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #444;
+}
+.rate-box .value {
+    display: flex;
+    align-items: center;
+}
+.rate-box .value:hover {
+    color: #66bb6a;
+}
+.chart .value {
+    font-size: 30px;
+    cursor: pointer;
+}
+.rate-box .progress-bar {
+    border-width: 1px;
+    position: relative;
+    background-color: #cfd8dc91;
+
+    height: 10px;
+    border-radius: 100px;
+    width: 350px;
+}
+.rate-box .progress-bar .progress {
+    background-color: #66bb6a;
+    height: 100%;
+    border-radius: 100px;
+    transition: 300ms ease-in-out;
+}
+
+.global {
+    height: 100%;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.one .fas {
+    color: #cfd8dc;
+}
+
+.two {
+    background: linear-gradient(to right, #66bb6a 0%, transparent 0%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out all;
+}
+
+.global > span {
+    font-size: 90px;
+    font-weight: 500;
+}
+
+.profile-rating-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 10%;
+}
+.profile-rating-icons span {
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+}
+
+.total-reviews {
+    font-size: 25px !important;
+}
+.barber-profile {
+    flex-basis: 45% !important;
+    max-width: 45% !important;
+}
+.barber-embed {
+    flex-basis: 50% !important;
+    max-width: none !important;
+}
+.barber-rating {
+    flex-basis: 70%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile: */
+    .barber-rating {
+        flex-basis: 100%;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .barber-profile {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+    }
+    .barber-embed {
+        flex-basis: 100% !important;
+    }
+}
+/* End:: rating barber profile */
+/* Begin:: New Landing */
+.bg-hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    transition: none;
+    position: relative;
+    top: 0.5em !important;
+    height: 100%;
+}
+
+.hero-logo {
+    width: 95%;
+}
+
+.characters {
+    margin-top: 70px;
+    width: 90%;
+    margin-right: 10%;
+}
+
+.booking {
+    position: relative;
+    top: -200px;
+}
+
+.carousel {
+    width: 50%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.img-carousel {
+    width: 70%;
+    object-fit: cover;
+}
+
+.btn-book {
+    border-radius: 1.7em;
+    padding: 8px 120px;
+    text-transform: uppercase;
+    background-color: rgba(238, 238, 238, 0.9);
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.btn-book:hover {
+    background-color: rgba(238, 238, 238, 0.9);
+}
+
+.bg-divider-hero {
+    /* background-image: url("porto/img/bg/divider 1.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    width: 100%;
+    /* height: 100%; */
+    top: -4em !important;
+    position: relative;
+    background: transparent;
+    border: 0;
+}
+
+#ourservices {
+    padding: 0px;
+    margin: -6em 0;
+}
+
+/* .bg-services {
+        background-image: url("porto/img/bg/bg-service.png");
+        height: 100vh;
+        background-size: cover;
+        top: -4em !important;
+        position: relative;
+        background-position: center;
+        background-color: transparent;
+        z-index: 9999999999;
+    } */
+
+.bg-tree {
+    position: absolute;
+    z-index: 100;
+    margin-top: -14em;
+    width: fit-content;
+}
+
+.bg-divider-services {
+    width: 100%;
+    height: 100%;
+    /* top: -4em !important; */
+    position: relative;
+    background: transparent;
+    border: 0;
+    z-index: 99;
+}
+
+.img-service {
+    height: 300px;
+}
+
+.bg-about {
+    background-image: url("porto/img/bg/bg-aboutus.png");
+    height: 100vh;
+    background-size: cover;
+    top: -4em !important;
+    position: relative;
+    background-position: center;
+    /* z-index: 100; */
+}
+
+.about-content {
+    width: 32em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5em;
+    word-wrap: normal;
+}
+
+.btn-readmore {
+    border-radius: 1.7em;
+    padding: 8px 64px;
+    text-transform: uppercase;
+    background-color: rgb(255, 144, 69);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.btn-readmore:hover {
+    background-color: rgba(255, 144, 69, 0.9);
+    color: #ffffff;
+}
+
+#ourteam {
+    position: relative;
+    top: 3.25em !important;
+}
+
+.bg-divider-hairartist {
+    background-image: url("porto/img/bg/divider 2.png");
+    /* padding: .5rem 0; */
+    /* transition: none; */
+    height: 100%;
+    min-height: 18em;
+    /* background-color: #000000; */
+    background-color: transparent;
+    background-position: center center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    z-index: 999;
+    position: relative;
+    top: -7em !important;
+}
+
+#carouselSquad {
+    margin-top: -10em !important;
+    object-fit: cover;
+    height: 30%;
+    width: 100%;
+}
+
+.bg-divider-squad {
+    background-image: url("porto/img/bg/divider-4.png");
+    /* padding: .5rem 0; */
+    /* transition: none; */
+    height: 100%;
+    min-height: 12em;
+    /* background-color: #000000; */
+    background-color: transparent;
+    background-position: bottom center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    z-index: 12;
+    position: relative;
+    /* top: -6em !important; */
+}
+
+.btn-book-squad {
+    border-radius: 1.7em;
+    padding: 8px 64px;
+    text-transform: uppercase;
+    background-color: rgb(90, 89, 87);
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.btn-book-squad:hover {
+    color: #ffffff;
+    background-color: rgba(255, 144, 69, 0.9);
+}
+
+.bg-products {
+    background-image: url("porto/img/bg/bg-clean.png");
+    height: 100%;
+    background-size: cover;
+    background-position: bottom center;
+    margin-top: -8em !important;
+    /* position: relative; */
+    z-index: 100;
+}
+
+.products-title {
+    padding-top: 8em;
+}
+
+.img-product {
+    height: 300px;
+}
+
+.btn-shop {
+    border-radius: 1.7em;
+    padding: 8px 64px;
+    text-transform: uppercase;
+    background-color: #2c3846;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    width: fit-content;
+}
+
+.btn-shop:hover {
+    color: #ffffff;
+}
+
+.bg-brands {
+    background-color: #848383;
+}
+
+.bg-divider-brands {
+    width: 100%;
+    height: 100%;
+    margin-top: -4em !important;
+    /* position: relative; */
+    background: transparent;
+    border: 0;
+    z-index: 99;
+}
+
+.form-email {
+    width: 50%;
+}
+
+.input-email {
+    border-radius: 2em !important;
+    padding: 0 32px !important;
+}
+
+.btn-email {
+    border-radius: 2em !important;
+    margin-left: -3em !important;
+    background-color: #2c3846;
+    z-index: 999 !important;
+    color: #ffffff;
+    padding: calc(1rem * 0.5) calc(1rem * 3) !important;
+}
+
+@media only screen and (max-width: 1024px) {
+    .bg-hero {
+        background-position: center;
+    }
+
+    .hero-logo {
+        width: 95%;
+    }
+
+    #carouselHero {
+        /* display: none; */
+        width: 150%;
+    }
+
+    .bg-tree {
+        position: absolute;
+        z-index: 100;
+        margin-top: -14em;
+        width: 18%;
+    }
+
+    .img-carousel {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .img-service {
+        height: 180px;
+    }
+
+    /* .bg-about {
+            height: 75vh;
+        } */
+
+    .about-content {
+        width: 24em;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5em;
+        word-wrap: break-word;
+    }
+
+    .bg-about {
+        background-image: url("porto/img/bg/bg-aboutus.png");
+        height: 75vh;
+        background-size: cover;
+        top: -1em !important;
+        position: relative;
+        background-position: center;
+    }
+
+    .bg-divider-hairartist {
+        height: 50%;
+        min-height: 12em;
+        padding: 0 36px;
+        position: relative;
+        top: -6em !important;
+    }
+
+    #ourteam {
+        position: relative;
+        top: 2.5em !important;
+    }
+
+    .bg-products {
+        margin-top: -8em !important;
+    }
+
+    .bg-divider-squad {
+        height: 100%;
+        min-height: 8em;
+        position: relative;
+        top: 0em !important;
+    }
+
+    #carouselSquad {
+        margin-top: -8em !important;
+        object-fit: cover;
+        height: 30%;
+        width: 100%;
+    }
+
+    .img-product {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-tree {
+        position: absolute;
+        z-index: 100;
+        margin-top: -12em;
+        width: 18%;
+    }
+
+    #ourservices {
+        padding: 0px;
+        margin: -4em 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselHero {
+        height: auto;
+    }
+
+    .bg-divider-hero {
+        width: 100%;
+        top: -2em !important;
+        position: relative;
+        background: transparent;
+        border: 0;
+    }
+
+    #ourservices {
+        padding: 0px;
+        margin: -4em 0 1em 0;
+    }
+
+    .bg-tree {
+        position: absolute;
+        z-index: 100;
+        margin-top: -6em;
+        width: 18%;
+    }
+
+    .bg-divider-services {
+        width: 100%;
+        height: 100%;
+        top: -0.5em !important;
+        position: relative;
+        background: transparent;
+        border: 0;
+        z-index: 99;
+    }
+
+    .about-content {
+        width: 20em;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5em;
+        word-wrap: break-word;
+    }
+
+    .bg-about {
+        background-image: url("porto/img/bg/bg-aboutus.png");
+        height: 50vh;
+        background-size: cover;
+        top: -1em !important;
+        position: relative;
+        background-position: left center;
+    }
+
+    #about-wrapper {
+        /* margin: 4em 0: */
+    }
+
+    .img-service {
+        height: 150px;
+    }
+
+    .bg-divider-hairartist {
+        min-height: 6em;
+        padding: 0 36px;
+        position: relative;
+        top: -2em !important;
+    }
+
+    #carouselSquad {
+        margin-top: -3em !important;
+        object-fit: cover;
+        height: 30%;
+        width: 100%;
+    }
+
+    #ourteam {
+        position: relative !important;
+        top: -1.5rem !important;
+    }
+
+    .bg-divider-squad {
+        top: -2em !important;
+    }
+
+    .form-email {
+        width: 100%;
+    }
+
+    .btn-email {
+        border-radius: 2em !important;
+        margin-left: -3em !important;
+        background-color: #2c3846;
+        z-index: 999 !important;
+        color: #ffffff;
+        padding: calc(1rem * 0.5) calc(1rem * 2) !important;
+    }
+
+    .btn-email:hover {
+        border-radius: 2em !important;
+        margin-left: -3em !important;
+        background-color: #2c3846;
+        z-index: 999 !important;
+        color: #ffffff;
+        padding: calc(1rem * 0.5) calc(1rem * 2) !important;
+    }
+
+    .hairartist-content {
+        display: none;
+    }
+
+    .bg-divider-squad {
+        position: relative;
+        top: -1.5em !important;
+    }
+
+    .products-title {
+        padding-top: 12em;
+    }
+
+    .bg-divider-brands {
+        width: 100%;
+        height: 100%;
+        margin-top: -3em !important;
+        /* position: relative; */
+        background: transparent;
+        border: 0;
+        z-index: 99;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .about-content {
+        width: 15em;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5em;
+        word-wrap: break-word;
+    }
+
+    .bg-about {
+        background-image: url("porto/img/bg/bg-aboutus.png");
+        height: 65vh;
+        background-size: cover;
+        top: -1em !important;
+        position: relative;
+        background-position: left center;
+    }
+
+    .bg-divider-squad {
+        top: -2em !important;
+    }
+}
+/* End:: New Landing */
+/* Begin:: Contact Us */
+#contact-us {
+    margin-top: -5rem;
+    padding-bottom: 4rem;
+}
+.contact-info {
+    display: flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+    }
+}
+.contact-divider {
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+
+.contact-detail {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 1rem;
+    padding: 3.5rem 4rem;
+    background-color: #848383;
+    color: #fff !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-detail {
+        margin-right: 0;
+    }
+}
+.reservation {
+    color: #212529 !important;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.reservation .phone {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.reservation a {
+    color: #212529 !important;
+    text-transform: uppercase;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.store-name b::after {
+    content: "";
+    position: absolute;
+    width: 93px;
+    height: 13px;
+    right: 110%;
+    top: 50%;
+    margin-top: -7px;
+    background: inherit;
+    background: url("https://www.portotheme.com/wordpress/porto/barber/wp-content/uploads/sites/80/2019/05/bar-sm.png")
+        no-repeat;
+}
+.store-name b {
+    position: relative;
+    font-size: 1.8rem;
+}
+.store-name b::before {
+    content: "";
+    position: absolute;
+    width: 93px;
+    height: 13px;
+    left: 110%;
+    top: 50%;
+    margin-top: -7px;
+    background: inherit;
+    background: url("https://www.portotheme.com/wordpress/porto/barber/wp-content/uploads/sites/80/2019/05/bar-sm.png")
+        no-repeat;
+}
+.store-name b::after {
+    content: "";
+    position: absolute;
+    width: 93px;
+    height: 13px;
+    right: 110%;
+    top: 50%;
+    margin-top: -7px;
+    background: inherit;
+    background: url("https://www.portotheme.com/wordpress/porto/barber/wp-content/uploads/sites/80/2019/05/bar-sm.png")
+        no-repeat;
+}
+.store-type b {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.contact-detail .born {
+    position: relative;
+    padding: 0.5rem 1.5rem;
+    background: #837d77;
+    align-items: center;
+    display: inline-flex;
+}
+.contact-detail .born::before {
+    content: "";
+    background: #585653;
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+}
+.contact-detail .born::after {
+    content: "";
+    background: #585653;
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    margin-top: -4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+}
+/* End:: Contact Us */
+/* Begin:: header */
+@media only screen and (max-width: 768px) {
+    .btn-signout {
+        padding-right: 1rem !important;
+        padding-left: 1rem !important;
+        margin-left: auto;
+    }
+    .header__user {
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        min-width: 280px !important;
+    }
+    .header > div {
+        margin-right: 0 !important;
+    }
+}
+/* End:: header */
+/* Begin:: Footer */
+@media only screen and (max-width: 768px) {
+    .footer-padding {
+        padding: 0 !important;
+    }
+}
+@media only screen and (max-height: 450px) {
+   #carouselHero {
+        display: none; 
+       
+    }
+}
+
+/* End:: Footer */
